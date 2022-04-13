@@ -15,10 +15,12 @@ public class TestMain {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        UserCrudImplement uci=new UserCrudImplement();
-        //uci.saveUser("khalil");
-//        uci.deleteUser(2);
-uci.updateUser(1, "admin teste");
+//        UserCrudImplement uci=new UserCrudImplement();
+//        //uci.saveUser("khalil");
+////        uci.deleteUser(2);
+//uci.updateUser(1, "admin teste");
+ProduitImplement pi=new ProduitImplement();
+pi.updateProduit("macbookpro", 3200,2);
     }
     
 }

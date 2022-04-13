@@ -13,8 +13,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 public class Connect {
 String dbURL = "jdbc:mysql://localhost:3306/democrudjdbc";
-String username = "root";
-String password = "";
+String username = "superadmin";
+String password = "admin";
 static Connection conn;
 public Connect() {
 try {
